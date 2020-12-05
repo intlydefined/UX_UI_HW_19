@@ -173,10 +173,6 @@ a:hover {
 
  .hero-bkg-animated {
     background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
-    width: 100%;
-    margin: 0;
-    padding-top: 120px;
-    box-sizing: border-box;
     -webkit-animation: slide 20s linear infinite;
   }
   
