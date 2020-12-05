@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100%;
     min-height: 100vh;
@@ -12,6 +16,21 @@ h1{
 h2 {
    font-family: 'Bebas Neue', cursive;
    font-size: 25pt;
+}
+
+h2 a.scroll {
+    font-size: 14pt;
+    text-decoration: none;
+    border-bottom: 3px solid #FFE600;
+}
+
+.yellow-bg h2 a.scroll {
+    border-bottom: 3px solid white !important;
+}
+
+h2 a.scroll:hover {
+    text-decoration: none;
+    border-bottom: 3px solid black;
 }
 
 h3 {
