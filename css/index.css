@@ -105,7 +105,9 @@ a:hover {
 
  .left-side > .image, .right-side > .image {
      background-color: gray;
-     height: 100px;
+     margin: 5px;
+     height: 95%;
+     width: 95%;
  }
 
  .yellow-bg {
